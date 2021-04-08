@@ -37,7 +37,7 @@ blockquote, q {
 	}
 
 * {
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
 }
 
 h1 {
@@ -54,6 +54,10 @@ h1 {
     width: 20%;
     padding: 20px;
     font-size: 20px; 
+}
+
+.topnav a {
+    text-decoration: none;
 }
 
 
@@ -109,8 +113,27 @@ h2 {
     display: flex;
     justify-content: space-around;
     margin-top: 10%;
+    margin-bottom: 3%;
 }
 
 .gallery2 {
     text-align: center;
+}
+
+footer {
+    background-color: grey;
+}
+
+h3 {
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 3%;
+    padding: 2%;
+}
+
+footer button {
+    margin-left: 47%;
+    font-size: 20px;
+    margin-bottom: 3%;
 }
