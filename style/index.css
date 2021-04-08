@@ -93,3 +93,24 @@ h2 {
 .right button {
     font-size: 20px;
 }
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.gallery div {
+    flex-direction: column;
+    text-align: center;
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.gallery2 {
+    text-align: center;
+}
